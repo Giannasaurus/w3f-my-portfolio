@@ -6,15 +6,7 @@
 }
 
 h1 {
-	font-size: 6rem;
-	font-weight: 700;
-	text-transform: uppercase;
-}
-
-@media (max-width: 768px) {
-	h1 {
-		font-size: 3.5rem;
-	}
+	font-size: 12rem;
 }
 
 h2 {
@@ -49,13 +41,7 @@ h1 {
 }
 
 #projects h2, #tools h2, #contact h2, #footer-heading {
-	font-size: 3rem;
-}
-
-@media (max-width: 768px) {
-	#projects h2, #tools h2, #contact h2, #footer-heading {
-		font-size: 2rem;
-	}
+	font-size: 121px;
 }
 
 #tools-container img {
