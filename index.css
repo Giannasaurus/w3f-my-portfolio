@@ -12,13 +12,23 @@ p, input[type="text"], input[type="email"], textarea {
 
 #nav {
 	background-color: blue !important;
-	position: relative;
-	top: 2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: rgba(255, 255, 255, .8);
+}
+
+.navbar-dark:hover .navbar-nav:hover .nav-link:hover {
+	color: rgba(255, 255, 255, 1);
 }
 
 #introduction {
 	font-size: 2rem;
 	margin: 0;
+}
+
+#landing {
+	height: calc(100vh - 3.5rem);
 }
 
 h1 {
@@ -63,7 +73,7 @@ textarea {
 
 footer {
 	background-color: blue;
-	height: 75vh;
+	height: auto;
 }
 
 #footer-heading {
